@@ -2,7 +2,7 @@
 @section('content')
     <h1>Product List</h1>
 
-    @if (session('success'))
+    @if(session('success'))
         <p style="color: green;">{{ session('success') }}</p>
     @endif
 
@@ -14,7 +14,7 @@
             </tr>
         </thead>
         <tbody>
-            @foreach ($products as $product)
+            @foreach($products as $product)
                 <tr>
                     <td>{{ $product->name }}</td>
                     <td>${{ number_format($product->price, 2) }}</td>
@@ -24,5 +24,6 @@
     </table>
 
     <br>
-    <a href="{{ route('product.create') }}" class="btn btn-primary>Add New Product</a>
+    <a href="{{ route('product.create') }}">Add New Product</a>
+    <a href="{{ route('product.greater') }}">Product > $50</a>
 @endsection

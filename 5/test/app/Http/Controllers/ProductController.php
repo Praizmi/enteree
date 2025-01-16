@@ -33,4 +33,10 @@ class ProductController extends Controller
     public function create(){
         return view('product.create',);
     }
+    public function greater(){
+        $products = Product::where('price', '>', 50)
+        ->orderBy('created_at', 'desc')
+        ->get();
+    return view('product.index', compact('products'));
+}
 }
