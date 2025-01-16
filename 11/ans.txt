@@ -1,0 +1,1 @@
+One of your Laravel applications experiences slow query performance. Explain the steps you would take to optimize the queries.

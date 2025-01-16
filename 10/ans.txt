@@ -1,0 +1,8 @@
+You are tasked with designing a system to handle user authentication for a web application. Describe the steps you would take to:
+(a)-Hash and store passwords securely.
+(b)-Authenticate users when they log in.
+
+(a)- I will use the md5 function to hash the password after it is sent from the form "$newPassword = md5($password)" and store it as $newPassword 
+"UPDATE users SET password='$newPassword', created_at=NOW() WHERE id=$userId".
+
+(b)- I will store the login details in different variables which are checked in the database for the exact users details and store it in a session.

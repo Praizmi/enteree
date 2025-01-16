@@ -1,0 +1,8 @@
+The Model View controller architecture is a pattern that separates codes into three components which are interconnected and this helps to maintain a clean and scalable codebase
+
+Breakdown of the implementation
+Model: This manages th data storage, retrieval and manipulation of information in the database. Its main function is to interact with the database.
+
+View: This is the User interface(UI) displaying the data collected from the model.
+
+Controller: This acts as the intermediary between the model and the view. it receives input from users and updates the model accordingly, it also retrieves data from the mode and passes it to the view

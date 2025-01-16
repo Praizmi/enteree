@@ -1,0 +1,9 @@
+The main difference between the GET and POST methods are:
+
+-The GET method is used to bring out already saved information on the database something like a users information to be seen by the logged in user while the POST method receives information passed from the end user into the system to be saved in the database.
+
+-When using GET method some user data is visible in the URL(Uniform Resource Locator) while no users data is visible in the POST method
+
+-When using the GET method it is limited by the URL's(Uniform Resource Locator) length while for the POST method there is no limit on the size of the data
+
+-Requests can be cached using the Get Method while requests cannot be cached using the POSTmethod

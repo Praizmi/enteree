@@ -1,0 +1,2 @@
+after setting all parameters in the migrations folder in my terminal I type the script:
+php artisan migrate

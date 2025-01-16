@@ -1,0 +1,28 @@
+Normalization is a process of structuring a relational database according to a series of rules also known as Normal Forms(NF). These help to organize data efficiently, reduce redundancy, and this enhances data integrity.
+
+Example
+suppose i have a table
+orderId     orderDate       Products
+1           2025-01-10      Apple
+2           2025-01-4       Spoon
+3           2025-01-7       Liquor
+4           2025-01-2       grape
+5           2025-01-2       grape
+6           2025-01-4       Spoon
+
+at NormaliZation we will have 2 tables
+-Products
+id    Products
+1      Apple
+2      Spoon
+3      Liquor
+4      grape
+
+-Orders
+orderId     orderDate       ProductID
+1           2025-01-10          1
+2           2025-01-4           2
+3           2025-01-7           3
+4           2025-01-2           4
+5           2025-01-2           4
+6           2025-01-4           2
