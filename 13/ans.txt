@@ -1,0 +1,5 @@
+Explain how Git and GitHub are used in version control for team collaboration. Provide an example of a Git workflow for feature development.
+
+Branching Strategies:
+Teams often use branching strategies to manage feature development. Developers create branches for new features or bug fixes, allowing them to work independently without affecting the main codebase. Once the work is complete, they can merge their changes back into the main branch.
+
