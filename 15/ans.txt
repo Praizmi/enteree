@@ -1,0 +1,8 @@
+Describe how you would implement role-based access control (RBAC) in a Laravel application.
+
+- After installation and Migration of the base models and modules
+- The Registration form as an end-user will carry a check box for roles which will be verified by a predefined admin before the user is activated.
+-At the login the system checks what role the user is registered in before he log's in
+- I will create a modules for each user role(admin, agent, user etc)
+    also creating grouped routes for the application defining which route is for which module
+    which wil help manage the web based user data for whatever role
